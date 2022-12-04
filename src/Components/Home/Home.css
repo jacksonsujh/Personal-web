@@ -1,0 +1,26 @@
+.Background{
+    background-image: url("../../Statics/Background.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: 100% 72%;
+}
+
+.IntroTitle{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.IntroTitle h1{
+    font-size: 700%;
+    margin: 0;
+}
+
+.IntroTitle h2{
+    font-size: 300%;
+    margin: 0;
+}

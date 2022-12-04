@@ -1,0 +1,13 @@
+.FooterContainer{
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.SectionContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 90%;
+}
