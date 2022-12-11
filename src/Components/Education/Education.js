@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import {Navigation, Pagination, Mousewheel, Keyboard, Autoplay} from "swiper";
 
 
 import "./Education.css";
@@ -80,7 +80,12 @@ export class Education extends React.Component{
                     pagination={true}
                     mousewheel={true}
                     keyboard={true}
-                    modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+                    loop={true}
+                    autoplay={{
+                        delay:5000,
+                        disableOnInteraction: true,
+                    }}
+                    modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
                     className="mySwiper"
                 >
 
