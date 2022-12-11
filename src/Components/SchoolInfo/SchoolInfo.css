@@ -1,0 +1,48 @@
+.school{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.school img{
+    object-position: 0 90%;
+    object-fit: cover;
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 3% 7%;
+}
+
+.schoolDescription{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 3% 7%;
+    text-align: center;
+}
+
+.schoolDescription h1{
+    color: #3d8ff5;
+    text-decoration: none;
+    font-size: 250%;
+    margin: 0;
+}
+
+.schoolDescription h2{
+    color: #5e9516;
+    font-size: 200%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.schoolDescription h3{
+    color: #fff;
+    font-size: 150%;
+    font-weight: bold;
+    margin: 0;
+}
+
+.schoolDescription p{
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 100%;
+}
